@@ -40,7 +40,8 @@ The implementation is modular, adhering to image processing standards such as IT
      - [CPP-Tools](https://marketplace.visualstudio.com/items?itemName=ms-vscode.cpptools)
 
 3. **Install MinGW-w64 (compiler for Windows)**:
-   - Download MinGW-w64 from [winlibs.com](http://winlibs.com/) and ensure to download the latest version.
+   - Download MinGW-w64 from [MingW Github](https://github.com/niXman/mingw-builds-binaries/releases) and ensure to download the latest version. 
+   - Used version - `x86_64-14.2.0-release-posix-seh-ucrt-rt_v12-rev0`
    - Add the `bin` directories of the MinGW-w64 installation to your `Path` environment variable. If you download both x86 and x64 versions, add both to the Path.
 
 4. **Verify Setup**:
