@@ -132,7 +132,7 @@ Files in `output/`:
 ## Acknowledgments
 - **stb_image**: Image loading library by Sean Barrett.
 - **stb_image_write**: Image writing library by Sean Barrett.
-- **stb downloaded link**: https://github.com/nothings/stb/tree/master
+- **stb downloaded link**: [STB Github](https://github.com/nothings/stb/tree/master)
 
 ---
 
