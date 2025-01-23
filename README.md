@@ -118,20 +118,9 @@ Converts RGB to LAB via the XYZ color space for perceptual uniformity:
 
 ### 5. XYZ
 Device-independent color space derived from RGB using:
-- **Gamma correction**:
-  ```
-  R_s = 
-  R / 12.92, if R <= 0.04045
-  ((R + 0.055) / 1.055) ^ 2.4, if R > 0.04045
-  ```
-  Similarly for `G_s` and `B_s`.
-- **Matrix transformation**:
-  ```
-  [ X ]   [ 0.4124  0.3576  0.1805 ]   [ R_s ]
-  [ Y ] = [ 0.2126  0.7152  0.0722 ] * [ G_s ]
-  [ Z ]   [ 0.0193  0.1192  0.9505 ]   [ B_s ]
-  ```
-
+- **Gamma correction**
+- **Matrix transformation**
+  
 ---
 
 ## Example
