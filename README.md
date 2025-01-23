@@ -6,8 +6,8 @@ This project implements **color space transformations** from RGB Color Space to 
 - Grayscale
 - HSV (Hue, Saturation, Value)
 - HSL (Hue, Saturation, Lightness)
-- YCbCr (Luminance and Chrominance)
 - LAB (Perceptually Uniform Color Space)
+- XYZ
 
 The implementation is modular, adhering to image processing standards such as ITU-R BT.601 and sRGB.
 
